@@ -1,3 +1,4 @@
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,8 +7,8 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
@@ -21,28 +22,43 @@ nav ul li {
     margin-right: 20px;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
 section {
     padding: 20px;
 }
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Specific styles */
+.orange {
+    color: orange;
 }
 
 .project {
     margin-bottom: 30px;
 }
 
-.project .chart {
+.project img {
     max-width: 100%;
-    height: auto;
 }
 
-@media screen and (max-width: 768px) {
-    .project .chart {
-        width: 100%;
-    }
+.project p {
+    line-height: 1.5;
 }
