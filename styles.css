@@ -1,3 +1,6 @@
+/* Add this CSS to your existing styles.css file */
+
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -36,7 +39,7 @@ footer {
     color: orange;
 }
 
-/* Add this CSS for responsive image sizes */
+/* Responsive styles for images */
 .project {
   margin-bottom: 20px;
 }
@@ -46,8 +49,9 @@ footer {
   height: auto;
 }
 
-@media screen and (max-width: 768px) {
+/* Adjust size for laptops/desktops */
+@media screen and (min-width: 769px) {
   .project img {
-    width: 100%;
+    max-width: 80%; /* Adjust width as needed */
   }
 }
