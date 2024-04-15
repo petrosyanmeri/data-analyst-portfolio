@@ -35,3 +35,19 @@ footer {
 .orange {
     color: orange;
 }
+
+/* Add this CSS for responsive image sizes */
+.project {
+  margin-bottom: 20px;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .project img {
+    width: 100%;
+  }
+}
