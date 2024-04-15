@@ -44,15 +44,15 @@ nav ul li a {
 #about,
 #projects,
 #contact {
-    background: orange;
-    color: #fff;
+    background: #333;
+    color: 	#FFA500;
     padding: 20px;
     margin-bottom: 20px;
 }
 
 /* Footer styles */
 footer {
-    background: #000;
+    background: #333;
     color: #fff;
     text-align: center;
     padding: 1em 0;
