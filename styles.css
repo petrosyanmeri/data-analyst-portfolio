@@ -1,21 +1,28 @@
-/* Add this CSS to your existing styles.css file */
-
-/* General styles */
-body {
-    font-family: Arial, sans-serif;
+/* Reset default browser styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
     text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
@@ -24,38 +31,42 @@ nav ul li {
     margin-right: 20px;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main content styles */
 section {
     padding: 20px;
+}
+
+/* About Me section */
+.about-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Projects section */
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto; /* Ensure images maintain aspect ratio */
+}
+
+/* Contact section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
 }
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px;
 }
-
-.orange {
-    color: orange;
-}
-
-/* Responsive styles for images */
-.project {
-  margin-bottom: 20px;
-}
-
-.project img {
-  max-width: 500px; /* Increase the maximum width of the images */
-  height: auto;
-  display: block;
-  margin: 0 auto 10px; /* Center the images */
-}
-
-/* Adjust size for laptops/desktops */
-@media screen and (min-width: 769px) {
-  .project img {
-    max-width: 600px; /* Increase width as needed */
-  }
-} 
-
-
