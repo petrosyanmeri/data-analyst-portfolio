@@ -39,20 +39,22 @@ footer {
     color: orange;
 }
 
+/* Responsive styles for images */
 .project {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .project img {
-  max-width: 250px; /* Adjust the maximum width of the images */
+  max-width: 300px; /* Adjust the maximum width of the images */
   height: auto;
   display: block;
-  margin: 0 auto 20px; /* Center the images */
+  margin: 0 auto 10px; /* Center the images */
 }
 
 /* Adjust size for laptops/desktops */
 @media screen and (min-width: 769px) {
   .project img {
-    max-width: 250px; /* Adjust width as needed */
+    max-width: 400px; /* Adjust width as needed */
   }
 }
+
