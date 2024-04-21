@@ -55,15 +55,11 @@ nav ul li a:hover {
     color: #ff9861; /* Lighter shade of orange on hover */
 }
 
-header h2 {
-    margin-bottom: 0px;
-    font-size: 44px;
-    color: #555;
-}
 
 /* About Me section */
-.about-content {
+.about-content h2 {
     max-width: 500px;
+    font-size: 48;
     margin: 40px ; /* Increased content margins */
     text-align: center;
     padding-right: 20px;
@@ -74,19 +70,18 @@ header h2 {
     font-size: 18px;
     line-height: 2.6; /* Adjust line interval */
     color: #555;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 /* Projects section */
 .project {
     margin-bottom: 40px;
-    
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .project h3 {
-    font-size: 25px;
+    font-size: 35px;
     margin-bottom: 40px;
     margin-left: 40px;
     margin-right: 40px;
