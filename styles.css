@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
@@ -105,7 +105,7 @@ nav ul li a:hover {
 
 #contact p {
     font-size: 16px;
-    color: #fff;
+    color: #333;
     margin-bottom: 10px;
 }
 
