@@ -8,6 +8,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
+    text-align: center
     line-height: 1.6;
     color: #444; /* Darker text color for better visibility */
     background-color: #f9f9f9;
@@ -110,7 +111,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
     text-align: center; /* Center align the text */
     margin: 10px 0; /* Adjust margin for spacing */
-    line-height: 1.4; /* Smaller line interval */
+    line-height: 0.5; /* Smaller line interval */
 }
 
 footer {
