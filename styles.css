@@ -8,28 +8,26 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    text-align: left
-    line-height: 3.0;
-    color: #444; /* Darker text color for better visibility */
+    line-height: 1.6;
+    color: #444;
     background-color: #f9f9f9;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden;
+    text-align: left; /* Adjusted text alignment */
 }
 
 /* Header styles */
 header {
     background-color: #333; 
-    padding: 30px 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 20px 0; /* Adjusted padding for header */
     text-align: center;
     width: 100%;
     z-index: 9999;
 }
 
 header h1 {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     font-size: 34px;
-    color: #fff; /* White text color */
+    color: #fff;
 }
 
 nav ul {
@@ -40,68 +38,65 @@ nav ul {
 
 nav ul li {
     display: inline;
+    margin-right: 20px; /* Added margin between navigation items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from last navigation item */
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #FF7518; /* Orange text color */
+    color: #FF7518;
     font-size: 18px;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ff9861; /* Lighter shade of orange on hover */
+    color: #ff9861;
 }
-
 
 /* About Me section */
 .about-content h2 {
-    margin: 70px ; /* Increased content margins */
-    text-align: left;
-    padding-right: 20px;
-    padding-left: 20px;
+    margin: 40px 0; /* Adjusted margin for heading */
+    font-size: 28px; /* Decreased font size for heading */
 }
 
 .about-content p {
     font-size: 18px;
-    line-height: 1.6; /* Adjust line interval */
+    line-height: 1.6;
     color: #555;
-    margin: 40px 20px; /* Increase the top and bottom margin, and add some left and right margin */
-    max-width: 800px; /* Limit the maximum width of the paragraphs */
-    text-align: justify; /* Justify the text for better readability */
+    margin: 20px 0; /* Adjusted margin for paragraphs */
 }
+
 /* Projects section */
-.project հ2 {
-    font-size: 30
-    margin-bottom: 40px;
-    font-size: 40px;
+.project h2 {
+    margin-bottom: 20px; /* Adjusted margin for heading */
+    font-size: 24px; /* Decreased font size for heading */
 }
 
 .project h3 {
     font-size: 20px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-    color: #333; /* Black text color */
+    margin-bottom: 20px; /* Adjusted margin for subheadings */
+    color: #333;
 }
 
 .project img {
-    max-width: 70%; /* Smaller images */
-    height: 3; /* Ensure images maintain aspect ratio */
+    max-width: 100%; /* Ensured images are responsive */
+    height: auto;
     border-radius: 5px;
-    margin-left: 40px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+    transition: transform 0.3s ease;
 }
 
 .project img:hover {
-    transform: scale(0.8); /* Scale up image on hover */
+    transform: scale(1.05);
 }
 
 .project p {
-    font-size: 30px;
+    font-size: 18px;
     color: #555;
-    line-height: 3;
+    line-height: 1.6;
 }
 
 /* Contact section */
@@ -117,9 +112,7 @@ nav ul li a:hover {
     font-size: 18px;
     color: #555;
     margin-bottom: 10px;
-    text-align: center; /* Center align the text */
-    margin: 10px 0; /* Adjust margin for spacing */
-    line-height: 1.25; /* Smaller line interval */
+    line-height: 1.25;
 }
 
 footer {
@@ -128,3 +121,4 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
