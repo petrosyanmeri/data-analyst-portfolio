@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
@@ -19,7 +19,6 @@ header {
     background-color: #333; 
     padding: 20px 0;
     text-align: center;
-    position: fixed;
     width: 100%;
     z-index: 9999;
 }
@@ -97,8 +96,8 @@ nav ul li a:hover {
 
 /* Contact section */
 #contact {
-    background-color: #333; /* Black footer background */
-    color: #fff; /* White text color */
+    background-color: #fff; 
+    color: #333; 
     padding: 20px 0;
     text-align: left
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
