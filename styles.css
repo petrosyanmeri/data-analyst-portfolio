@@ -1,5 +1,6 @@
 /* Reset default browser styles */
-html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -10,14 +11,17 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 /* Header styles */
 header {
-    background-color: #000; /* Black header background */
+    background-color: #000; 
     padding: 20px 0;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 header h1 {
@@ -51,6 +55,7 @@ nav ul li a:hover {
 /* Main content styles */
 section {
     padding: 20px;
+    margin-top: 80px; /* Adjust for fixed header */
 }
 
 /* About Me section */
@@ -78,10 +83,15 @@ section {
 }
 
 .project img {
-    max-width: 60%; /* Smaller image size */
+    max-width: 100%; /* Full-width images */
     height: auto; /* Ensure images maintain aspect ratio */
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add smooth transition for hover effect */
+}
+
+.project img:hover {
+    transform: scale(1.05); /* Scale up image on hover */
 }
 
 .project p {
@@ -110,8 +120,4 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-}
-
-footer p {
-    font-size: 14px;
 }
