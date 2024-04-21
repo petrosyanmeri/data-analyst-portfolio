@@ -64,11 +64,12 @@ nav ul li a:hover {
 
 .about-content p {
     font-size: 18px;
-    line-height: 4.6; /* Adjust line interval */
+    line-height: 1.6; /* Adjust line interval */
     color: #555;
-    padding-left: 60px;
+    margin: 40px 20px; /* Increase the top and bottom margin, and add some left and right margin */
+    max-width: 800px; /* Limit the maximum width of the paragraphs */
+    text-align: justify; /* Justify the text for better readability */
 }
-
 /* Projects section */
 .project հ2 {
     font-size: 30
