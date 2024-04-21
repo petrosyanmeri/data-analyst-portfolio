@@ -16,7 +16,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #000; 
+    background-color: #333; 
     padding: 20px 0;
     text-align: center;
     position: fixed;
@@ -43,7 +43,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ff6f61; /* Orange text color */
+    color: #FF7518; /* Orange text color */
     font-size: 18px;
     transition: color 0.3s ease;
 }
@@ -52,11 +52,6 @@ nav ul li a:hover {
     color: #ff9861; /* Lighter shade of orange on hover */
 }
 
-/* Main content styles */
-section {
-    padding: 20px;
-    margin-top: 80px; /* Adjust for fixed header */
-}
 
 /* About Me section */
 .about-content {
@@ -95,17 +90,17 @@ section {
 }
 
 .project p {
-    font-size: 16px;
+    font-size: 30px;
     color: #555;
     line-height: 1.6;
 }
 
 /* Contact section */
 #contact {
-    background-color: #000; /* Black footer background */
+    background-color: #333; /* Black footer background */
     color: #fff; /* White text color */
     padding: 20px 0;
-    text-align: center;
+    text-align: left
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
