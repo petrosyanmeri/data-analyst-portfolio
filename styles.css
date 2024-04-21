@@ -1,9 +1,4 @@
 /* Reset default browser styles */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -108,7 +103,7 @@ nav ul li a:hover {
     font-size: 18px;
     color: #555;
     margin-bottom: 10px;
-    text-align: center; /* Center align the text */
+    text-align: centre
     margin: 10px 0; /* Adjust margin for spacing */
 }
 
