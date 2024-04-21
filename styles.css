@@ -14,8 +14,7 @@ body {
     background-color: #f9f9f9;
     overflow-x: hidden; /* Prevent horizontal scrolling */
     margin: 10; /* Center-align the content */
-    padding-right: 20px;
-    padding-left: 20px;
+    
 }
 
 /* Header styles */
@@ -63,12 +62,16 @@ nav ul li a:hover {
     max-width: 800px;
     margin: 40px auto; /* Increased content margins */
     text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .about-content p {
     font-size: 18px;
     line-height: 1.6; /* Adjust line interval */
     color: #555;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 /* Projects section */
