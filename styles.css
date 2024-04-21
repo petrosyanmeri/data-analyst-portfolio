@@ -18,7 +18,7 @@ body {
 /* Header styles */
 header {
     background-color: #333; 
-    padding: 30px 0;
+    padding: 20px 0;
     padding-left: 0;
     padding-right: 0;
     text-align: center;
@@ -28,7 +28,7 @@ header {
 
 header h1 {
     margin-bottom: 0;
-    font-size: 34px;
+    font-size: 30px;
     color: #fff; /* White text color */
 }
 
@@ -106,7 +106,7 @@ nav ul li a:hover {
     background-color: #fff; 
     color: #333; 
     padding: 20px;
-    line-height: 1.5;
+    line-height: 1.3;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -117,7 +117,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
     text-align: center; /* Center align the text */
     margin: 10px 0; /* Adjust margin for spacing */
-    line-height: 1.25; /* Smaller line interval */
+    line-height: 1.05; /* Smaller line interval */
 }
 
 footer {
