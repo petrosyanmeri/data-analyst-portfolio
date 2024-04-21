@@ -1,7 +1,7 @@
 /* Reset default browser styles */
 * {
     box-sizing: border-box;
-    margin: 10px;
+    margin: 0px;
     padding: 0;
 }
 
@@ -13,8 +13,8 @@ body {
     color: #444; /* Darker text color for better visibility */
     background-color: #f9f9f9;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    margin: 30; /* Center-align the content */
-    
+    margin-left: 10; /* Center-align the content */
+    margin-right: 10;
 }
 
 /* Header styles */
