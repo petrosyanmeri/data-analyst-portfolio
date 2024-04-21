@@ -41,13 +41,13 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;1
+    display: inline;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #FF7518; /* Orange text color */
-    font-size: 20px;
+    font-size: 18px;
     transition: color 0.3s ease;
 }
 
@@ -59,8 +59,8 @@ nav ul li a:hover {
 /* About Me section */
 .about-content h2 {
     max-width: 500px;
-    font-size: 48;
-    margin: 40px ; /* Increased content margins */
+    font-size: 88;
+    margin: 70px ; /* Increased content margins */
     text-align: center;
     padding-right: 20px;
     padding-left: 20px;
@@ -68,10 +68,9 @@ nav ul li a:hover {
 
 .about-content p {
     font-size: 18px;
-    line-height: 2.6; /* Adjust line interval */
+    line-height: 4.6; /* Adjust line interval */
     color: #555;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 60px;
 }
 
 /* Projects section */
