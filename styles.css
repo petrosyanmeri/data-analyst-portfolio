@@ -56,6 +56,11 @@ nav ul li a:hover {
     color: #ff9861; /* Lighter shade of orange on hover */
 }
 
+header h2 {
+    margin-bottom: 0px;
+    font-size: 44px;
+    color: #555;
+}
 
 /* About Me section */
 .about-content {
