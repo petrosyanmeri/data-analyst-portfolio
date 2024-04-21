@@ -81,13 +81,13 @@ nav ul li a:hover {
 
 .project h3 {
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     color: #333; /* Black text color */
 }
 
 .project img {
     max-width: 60%; /* Smaller images */
-    height: auto; /* Ensure images maintain aspect ratio */
+    height: 3; /* Ensure images maintain aspect ratio */
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease; /* Add smooth transition for hover effect */
