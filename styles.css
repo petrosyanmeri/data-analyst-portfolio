@@ -1,8 +1,8 @@
 /* Reset default browser styles */
 * {
     box-sizing: border-box;
-    margin: 10;
-    padding: 10;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -114,7 +114,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
     text-align: center; /* Center align the text */
     margin: 10px 0; /* Adjust margin for spacing */
-    line-height: 0.2; /* Smaller line interval */
+    line-height: 0.5; /* Smaller line interval */
 }
 
 footer {
