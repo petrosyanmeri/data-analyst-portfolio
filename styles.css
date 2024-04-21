@@ -14,7 +14,9 @@ body {
     background-color: #f9f9f9;
     overflow-x: hidden; /* Prevent horizontal scrolling */
     margin: 10; /* Center-align the content */
-    padding: 30px
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 /* Header styles */
