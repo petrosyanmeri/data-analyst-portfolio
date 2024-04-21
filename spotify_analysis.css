@@ -27,17 +27,6 @@ h1, h2, h3 {
     margin-bottom: 10px;
 }
 
-h1 {
-    font-size: 28px;
-}
-
-h2 {
-    font-size: 24px;
-}
-
-h3 {
-    font-size: 20px;
-}
 
 p {
     margin-bottom: 15px;
@@ -66,21 +55,35 @@ footer p {
     font-size: 14px;
 }
 
-/* Media query for smaller screens */
+/* Styles for smaller screens */
 @media only screen and (max-width: 768px) {
     header, footer {
         padding: 15px 0;
     }
+
+    main {
+        padding: 10px;
+    }
+
     h1 {
         font-size: 24px;
     }
+
     h2 {
         font-size: 20px;
     }
+
     h3 {
         font-size: 18px;
     }
+
     p {
         font-size: 14px;
+    }
+
+    /* Adjust image width for smaller screens */
+    img {
+        max-width: 100%;
+        height: auto;
     }
 }
