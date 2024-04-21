@@ -13,8 +13,6 @@ body {
     color: #444; /* Darker text color for better visibility */
     background-color: #f9f9f9;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    margin-left: 20px; /* Center-align the content */
-    margin-right: 20px;
 }
 
 /* Header styles */
@@ -58,8 +56,6 @@ nav ul li a:hover {
 
 /* About Me section */
 .about-content h2 {
-    max-width: 500px;
-    font-size: 88;
     margin: 70px ; /* Increased content margins */
     text-align: left;
     padding-right: 20px;
@@ -76,7 +72,7 @@ nav ul li a:hover {
 /* Projects section */
 .project {
     margin-bottom: 40px;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .project h3 {
@@ -88,7 +84,7 @@ nav ul li a:hover {
 }
 
 .project img {
-    max-width: 60%; /* Smaller images */
+    max-width: 40%; /* Smaller images */
     height: 3; /* Ensure images maintain aspect ratio */
     border-radius: 5px;
     margin-left: 20px;
