@@ -70,13 +70,14 @@ nav ul li a:hover {
 }
 
 /* Projects section */
-.project {
+.project հ2 {
+    font-size: 30
     margin-bottom: 40px;
     font-size: 40px;
 }
 
 .project h3 {
-    font-size: 35px;
+    font-size: 20px;
     margin-bottom: 40px;
     margin-left: 40px;
     margin-right: 40px;
@@ -84,10 +85,10 @@ nav ul li a:hover {
 }
 
 .project img {
-    max-width: 40%; /* Smaller images */
+    max-width: 70%; /* Smaller images */
     height: 3; /* Ensure images maintain aspect ratio */
     border-radius: 5px;
-    margin-left: 20px;
+    margin-left: 40px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease; /* Add smooth transition for hover effect */
 }
