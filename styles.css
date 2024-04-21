@@ -8,26 +8,28 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    line-height: 1.6;
-    color: #444;
+    text-align: left;
+    line-height: 3.0;
+    color: #444; /* Darker text color for better visibility */
     background-color: #f9f9f9;
-    overflow-x: hidden;
-    text-align: left; /* Adjusted text alignment */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 /* Header styles */
 header {
     background-color: #333; 
-    padding: 20px 0; /* Adjusted padding for header */
+    padding: 30px 0;
+    padding-left: 0;
+    padding-right: 0;
     text-align: center;
     width: 100%;
     z-index: 9999;
 }
 
 header h1 {
-    margin-bottom: 10px;
+    margin-bottom: 0;
     font-size: 34px;
-    color: #fff;
+    color: #fff; /* White text color */
 }
 
 nav ul {
@@ -38,59 +40,59 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px; /* Added margin between navigation items */
-}
-
-nav ul li:last-child {
-    margin-right: 0; /* Remove margin from last navigation item */
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #FF7518;
+    color: #FF7518; /* Orange text color */
     font-size: 18px;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ff9861;
+    color: #ff9861; /* Lighter shade of orange on hover */
 }
 
 /* About Me section */
-.about-content h2 {
-    margin: 40px 0; /* Adjusted margin for heading */
-    font-size: 28px; /* Decreased font size for heading */
+#about h1 {
+    font-size: 36px; /* Increase font size for the heading */
+    margin-bottom: 20px; /* Adjust margin bottom for the heading */
 }
 
-.about-content p {
+#about p {
     font-size: 18px;
     line-height: 1.6;
     color: #555;
-    margin: 20px 0; /* Adjusted margin for paragraphs */
+    margin: 20px 0; /* Adjust margin for paragraphs */
+    padding: 0 20px; /* Adjust padding for paragraphs */
 }
 
 /* Projects section */
-.project h2 {
-    margin-bottom: 20px; /* Adjusted margin for heading */
-    font-size: 24px; /* Decreased font size for heading */
+#projects h1 {
+    font-size: 36px; /* Increase font size for the heading */
+    margin-bottom: 20px; /* Adjust margin bottom for the heading */
+}
+
+.project {
+    margin-bottom: 40px; /* Adjust margin bottom for project containers */
 }
 
 .project h3 {
-    font-size: 20px;
-    margin-bottom: 20px; /* Adjusted margin for subheadings */
-    color: #333;
+    font-size: 24px; /* Decrease font size for project headings */
+    margin-bottom: 10px; /* Adjust margin bottom for project headings */
 }
 
 .project img {
-    max-width: 100%; /* Ensured images are responsive */
-    height: auto;
+    max-width: 70%; /* Smaller images */
+    height: auto; /* Ensure images maintain aspect ratio */
     border-radius: 5px;
+    margin-left: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; /* Add smooth transition for hover effect */
 }
 
 .project img:hover {
-    transform: scale(1.05);
+    transform: scale(0.8); /* Scale up image on hover */
 }
 
 .project p {
@@ -112,7 +114,9 @@ nav ul li a:hover {
     font-size: 18px;
     color: #555;
     margin-bottom: 10px;
-    line-height: 1.25;
+    text-align: center; /* Center align the text */
+    margin: 10px 0; /* Adjust margin for spacing */
+    line-height: 1.25; /* Smaller line interval */
 }
 
 footer {
@@ -121,4 +125,3 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
-
