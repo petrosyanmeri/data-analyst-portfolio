@@ -15,7 +15,6 @@ body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
     margin: 10; /* Center-align the content */
     padding-right: 20px;
-    padding-bottom: 20px;
     padding-left: 20px;
 }
 
@@ -116,7 +115,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
     text-align: center; /* Center align the text */
     margin: 10px 0; /* Adjust margin for spacing */
-    line-height: 3.05; /* Smaller line interval */
+    line-height: 1.25; /* Smaller line interval */
 }
 
 footer {
