@@ -8,13 +8,13 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    text-align: center
+    text-align: left
     line-height: 3.0;
     color: #444; /* Darker text color for better visibility */
     background-color: #f9f9f9;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    margin-left: 10; /* Center-align the content */
-    margin-right: 10;
+    margin-left: 20px; /* Center-align the content */
+    margin-right: 20px;
 }
 
 /* Header styles */
@@ -61,7 +61,7 @@ nav ul li a:hover {
     max-width: 500px;
     font-size: 88;
     margin: 70px ; /* Increased content margins */
-    text-align: center;
+    text-align: left;
     padding-right: 20px;
     padding-left: 20px;
 }
