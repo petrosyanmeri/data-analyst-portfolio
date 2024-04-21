@@ -14,6 +14,7 @@ body {
     background-color: #f9f9f9;
     overflow-x: hidden; /* Prevent horizontal scrolling */
     margin: 10; /* Center-align the content */
+    padding: 30px
 }
 
 /* Header styles */
@@ -73,13 +74,13 @@ nav ul li a:hover {
 }
 
 .project h3 {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 10px;
     color: #333; /* Black text color */
 }
 
 .project img {
-    max-width: 80%; /* Smaller images */
+    max-width: 60%; /* Smaller images */
     height: auto; /* Ensure images maintain aspect ratio */
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -87,13 +88,13 @@ nav ul li a:hover {
 }
 
 .project img:hover {
-    transform: scale(1.05); /* Scale up image on hover */
+    transform: scale(0.8); /* Scale up image on hover */
 }
 
 .project p {
     font-size: 30px;
     color: #555;
-    line-height: 1.6;
+    line-height: 3;
 }
 
 /* Contact section */
@@ -111,7 +112,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
     text-align: center; /* Center align the text */
     margin: 10px 0; /* Adjust margin for spacing */
-    line-height: 0.5; /* Smaller line interval */
+    line-height: 0.2; /* Smaller line interval */
 }
 
 footer {
