@@ -12,7 +12,7 @@ body {
     color: #444; /* Darker text color for better visibility */
     background-color: #f9f9f9;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    margin: 0 auto; /* Center-align the content */
+    margin: 10; /* Center-align the content */
 }
 
 /* Header styles */
