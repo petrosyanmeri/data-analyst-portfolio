@@ -1,4 +1,9 @@
 /* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -51,13 +56,13 @@ nav ul li a:hover {
 /* About Me section */
 .about-content {
     max-width: 800px;
-    margin: 40 auto;
+    margin: 40px auto; /* Increased content margins */
     text-align: center;
 }
 
 .about-content p {
     font-size: 18px;
-    line-height: 1.8;
+    line-height: 1.6; /* Adjust line interval */
     color: #555;
 }
 
@@ -73,7 +78,7 @@ nav ul li a:hover {
 }
 
 .project img {
-    max-width: 60%; /* Full-width images */
+    max-width: 80%; /* Smaller images */
     height: auto; /* Ensure images maintain aspect ratio */
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -81,13 +86,13 @@ nav ul li a:hover {
 }
 
 .project img:hover {
-    transform: scale(1.0); /* Scale up image on hover */
+    transform: scale(1.05); /* Scale up image on hover */
 }
 
 .project p {
     font-size: 30px;
     color: #555;
-    line-height: 1.2;
+    line-height: 1.6;
 }
 
 /* Contact section */
@@ -102,10 +107,10 @@ nav ul li a:hover {
 #contact p {
     font-size: 18px;
     color: #555;
-    margin-bottom: 0px;
-    text-align: centre
+    margin-bottom: 10px;
+    text-align: center; /* Center align the text */
     margin: 10px 0; /* Adjust margin for spacing */
-    line-height: 1.2
+    line-height: 1.4; /* Smaller line interval */
 }
 
 footer {
