@@ -9,9 +9,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    color: #333;
+    color: #444; /* Darker text color for better visibility */
     background-color: #f9f9f9;
     overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0 auto; /* Center-align the content */
 }
 
 /* Header styles */
@@ -98,15 +99,17 @@ nav ul li a:hover {
 #contact {
     background-color: #fff; 
     color: #333; 
-    padding: 20px 0;
-    text-align: left
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #contact p {
-    font-size: 16px;
-    color: #333;
+    font-size: 18px;
+    color: #555;
     margin-bottom: 10px;
+    text-align: center; /* Center align the text */
+    margin: 10px 0; /* Adjust margin for spacing */
 }
 
 footer {
