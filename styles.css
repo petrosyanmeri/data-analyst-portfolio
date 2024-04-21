@@ -7,7 +7,7 @@ body {
     color: #444; /* Darker text color for better visibility */
     background-color: #f9f9f9;
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    margin: 10 auto; /* Center-align the content */
+    margin: 0 auto; /* Center-align the content */
 }
 
 /* Header styles */
@@ -51,7 +51,7 @@ nav ul li a:hover {
 /* About Me section */
 .about-content {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 40 auto;
     text-align: center;
 }
 
@@ -102,9 +102,9 @@ nav ul li a:hover {
 #contact p {
     font-size: 18px;
     color: #555;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     text-align: centre
-    margin: 10px 0; /* Adjust margin for spacing */
+    margin: 0px 0; /* Adjust margin for spacing */
 }
 
 footer {
