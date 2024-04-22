@@ -56,7 +56,7 @@ nav ul li a:hover {
 #about h1 {
     font-size: 36px; /* Increase font size for the heading */
     margin-bottom: 10px; /* Adjust margin bottom for the heading */
-    margin-left: 20px;
+    margin-left: 30px;
     
     
 }
@@ -74,10 +74,8 @@ nav ul li a:hover {
 #projects h1 {
     font-size: 36px; /* Increase font size for the heading */
     margin-bottom: 1px; /* Adjust margin bottom for the heading */
-    margin-left: 20px;
-    text-align: center;
+    margin-left: 30px;
 }
-
 .project {
     margin-bottom: 20px; /* Adjust margin bottom for project containers */
 }
